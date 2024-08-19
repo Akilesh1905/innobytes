@@ -1,0 +1,106 @@
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    padding-left: 1.4em;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 2;
+
+
+}
+
+.center h4:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.right {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.right button {
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    background-color: #0047ff;
+    font-size: 15px;
+    color: #efffff;
+    font-weight: bolder;
+
+}
+
+.right button:hover {
+    padding: 8px;
+    box-shadow: 2px 2px #888888;
+    background-color: #346af2;
+    cursor: pointer;
+}
+
+.span {
+    color: rgb(238, 12, 12);
+
+}
+
+.container2 {
+    background-color: #abc3cd;
+    margin-top: 80px;
+    height: 680px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\akila\Desktop\innobytes\innobytes-project\src\Front-page\frontimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.welcome {
+
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+
+}
+
+.motion {
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.book {
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    background-color: #0047ff;
+    font-size: 15px;
+    color: #efffff;
+    font-weight: bolder;
+
+}
