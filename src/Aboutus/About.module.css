@@ -12,8 +12,9 @@
  .para {
      flex: 1;
      padding-top: 50px;
-     padding-left: 50px;
+     padding-left: 30px;
      width: 2px;
+     color: #0000008f;
  }
 
  .image {
@@ -23,6 +24,7 @@
      width: 700px;
      height: 400px;
      justify-items: center;
+     margin-left: 2em;
  }
 
  .image1 {

@@ -5,10 +5,6 @@
     align-items: center;
     border-radius: 4px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
 }
 
 .left {
@@ -22,7 +18,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex: 2;
-
+    color: #0000008f;
 
 }
 
@@ -30,7 +26,6 @@
 
     text-decoration: underline;
     cursor: pointer;
-
 }
 
 .right {
@@ -63,8 +58,7 @@
 }
 
 .container2 {
-    background-color: #abc3cd;
-    margin-top: 80px;
+    margin-top: 10px;
     height: 680px;
     width: 100%;
     color: white;
@@ -103,4 +97,14 @@
     color: #efffff;
     font-weight: bolder;
 
+}
+
+/* .logo{
+    border-radius: 25px;
+    margin-top: 10px;
+} */
+.brand {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }

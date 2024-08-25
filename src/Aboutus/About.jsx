@@ -1,15 +1,22 @@
 import React from 'react'
-import style from '../Aboutus/About.module.css'
+import stylea from '../Aboutus/About.module.css'
 import img from '../Aboutus/out.jpg'
 import Services from '../Services/Services'
 const About = () => {
   return (
     <>
-      <div className={style.about}>
-        <div className={style.para}>
-          <h1>About US</h1>
+      <div className={stylea.about} id="abt">
+        
+      
+        <div className={stylea.para}>
+        <h1 style={{
+          color:"rgba(0, 0, 0, 0.679)",
+          marginLeft:"0px",
+          marginTop:"0px"
+        }}>About US</h1>
           <h1 style={{
-            fontFamily: "Roboto"
+            fontFamily: "Roboto",
+            width:"400px"
           }}>
             THE BEST HOLIDAYS STARTS HERE!</h1>
           <p style={{
@@ -28,16 +35,21 @@ const About = () => {
           /@23.5866261,86.8600289,19.94z/data=!4m14!1m7!3m6!1s0x39f6e3fdd3ff9ebb:0x517a57e3f93c1807!2sKingsukh+Guest+House
           !8m2!3d23.5863324!4d86.8597904!16s%2Fg%2F11srygxjp6!3m5!1s0x39f6e3fdd3ff9ebb:0x517a57e3f93c1807!8m2!3d23.5863324!4d86.8597904!
           16s%2Fg%2F11srygxjp6?entry=ttu"
-           target="_blank" style={{
+           target="_blank"
+            style={{
             width: "380px",
             color: "blue",
             textDecoration: "none"
           }}>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156
-            Contact us: +91 9007062180</a>
+            </a>
+            <p
+            style={{
+              color:"darkblue"
+            }}>Contact us: +91 9007062180</p>
 
         </div>
-        <div className={style.image}>
-          <img src={img} alt="hotel entrance image" className={style.image1} />
+        <div className={stylea.image}>
+          <img src={img} alt="hotel entrance image" className={stylea.image1} />
         </div>
       </div>
       <Services/>
