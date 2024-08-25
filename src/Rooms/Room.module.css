@@ -46,7 +46,7 @@ button{
 }
 h1{
     margin-left: 45px;
-    width: 380px;
+    width: 400px;
     color:#0000008f;
 }
 .header{
@@ -54,7 +54,8 @@ h1{
     font-weight: bolder;
     font-size: 3rem;
     color: rgba(0, 0, 0, 0.679);
-    padding-left: 30px;
+    padding-left: 20px;
+    width: 450px;
 }
 .rate{
     font-size: 1rem;

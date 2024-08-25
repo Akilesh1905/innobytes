@@ -14,21 +14,21 @@ const Front = () => {
         </header>
         <header className={stylef.center}>
           <a className={stylef.h4} href="#home">Home</a>
-        <a href="#abt">About</a>
-        <a href="#service">Services</a> 
-        <a href="#room">Rooms</a> 
-        <a href="#gallery">Gallery</a> 
-        <a href="#contact">Contact</a> 
+          <a href="#abt">About</a>
+          <a href="#service">Services</a>
+          <a href="#room">Rooms</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
         </header>
         <header className={stylef.right}>
-      
-       <a href="https://api.whatsapp.com/send?phone=919007062180" target='_blank'> <motion.button
+
+          <a href="https://api.whatsapp.com/send?phone=919007062180" target='_blank'> <motion.button
             whileHover={{
               rotate: "2deg"
             }}
             whileTap={{
               rotate: "-2deg"
-            }}>Book Now</motion.button> </a>   
+            }}>Book Now</motion.button> </a>
         </header>
       </motion.div>
       <div className={stylef.container2}>
@@ -36,16 +36,16 @@ const Front = () => {
           Make Yourself At Home
           In Our Guest House.
           <div>
-          <a href="https://api.whatsapp.com/send?phone=919007062180" target='_blank'>
-            <motion.button className={stylef.book}
-              whileHover={{
-                scale: 1.1,
-              }}
-              whileTap={{
-                opacity: 0.6
-              }}>
-              Book Now</motion.button> </a>
-              </div>
+            <a href="https://api.whatsapp.com/send?phone=919007062180" target='_blank'>
+              <motion.button className={stylef.book}
+                whileHover={{
+                  scale: 1.1,
+                }}
+                whileTap={{
+                  opacity: 0.6
+                }}>
+                Book Now</motion.button> </a>
+          </div>
         </header>
       </div>
       <About />
