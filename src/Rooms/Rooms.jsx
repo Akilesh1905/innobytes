@@ -1,7 +1,7 @@
 import React from 'react'
 import stylesr from '../Rooms/Room.module.css'
 import img1 from '../Rooms/small.jpg'
-import img2 from '../Rooms/Room1.jpg'
+import img2 from '../Rooms/room1.jpg'
 import {motion} from 'framer-motion'
 import Gallery from '../Gallery/Gallery.jsx'
 const Rooms = () => {
